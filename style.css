@@ -1,0 +1,335 @@
+/* import workSans font form google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shared styles */
+.primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+*{
+    font-family: "Work Sans";
+}
+
+/* for header */
+
+/* for nav */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.nav-title{
+    color:#131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    padding-left: 0px;
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    
+}
+nav li>a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+
+/* banner */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+     margin: 0px auto; 
+    
+}
+.banner-title{
+    color: #131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px; 
+ }
+ .banner img{
+    width:100%;
+    margin-top: 20px;
+ }
+
+ 
+
+/* main section */
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+main{
+    max-width: 70%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+/* team section */
+.team-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    /* padding-right: 70px; */
+    padding-left: 70px;
+    /* margin-left: 70px; */
+    
+}
+.team-content-title{
+    color:  #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.team-content-description{
+    color:  #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.features{
+    display: flex;
+    gap: 100px;
+}
+.feature-title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
+.feature-des{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+#yo{
+    margin-bottom: 30px;
+}
+.feature-card-container .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding:30px;
+    margin-bottom: 20px;
+}
+.feature-card-container .card-title{
+    color:  #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+ 
+}
+.feature-img img{
+    /* position: relative;
+    left: 90px;
+     */
+     height: 90%;
+     margin-left: 50px;
+    
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    width: 342px;
+    padding: 42px;
+    position: relative;
+    bottom: 100px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.facts-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.facts-description{
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.fact-card-container{
+    display: flex;
+    justify-content:space-around;
+}
+.fact-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 50px 35px;
+    max-width: 240px;
+}
+.fact-card-container .stat{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fact-card-container .card-des{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sponsors{
+    text-align: center;
+}
+.sponser-title{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+.sponser-description{
+    color:  #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sponsor-img-container{
+    display: flex;
+    justify-content:space-between;
+}
+footer{
+    text-align: center;
+    background: #FFF4E7;
+    padding: 40px 0px;
+    max-width: 70%;
+    margin: 0px auto;
+    color: var(--Dark-02, #424242);
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+/* responsive style  */
+
+ /* mobile devices */
+ @media screen and (max-width:576px) {
+    header{
+        padding: 50px 10px;
+    }
+    nav,.features {
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: space-between;
+    }
+    .team-container{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .team-content{
+        padding-left: 0px;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .fact-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sponsor-img-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feature-img img{
+        max-width: 100%;
+        margin-left: 0;
+        margin: 0px auto;
+    }
+    footer{
+        max-width: 100%;
+    }
+    
+}
+/* pad devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    nav,.team-container,.sponsor-img-container,.features {
+        flex-direction: column;
+    }
+    header {
+        padding: 50px;
+    }
+
+    main{
+        max-width: 98%;
+       
+    }
+    .team-content{
+        padding-left: 0px;
+        
+        
+    }
+    .fact-card-container{
+        gap: 5px;
+    }
+    
+    .sponsor-img-container img{
+        width: 40%;
+        
+        
+    }
+    .sponsor-img-container{
+        align-items: center;
+        gap: 20px;
+    }
+
+}
